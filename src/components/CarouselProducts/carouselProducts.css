@@ -1,0 +1,38 @@
+.section-1 h3 {
+    display: inline-block;
+    border-bottom: solid 2px #008ECC;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #666666;
+}
+
+.section-1 h3 span {
+    color: #008ECC;
+}
+
+.section-1 {
+    padding: 4vh 5vw;
+
+}
+
+
+.carousel-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.carousel-card i {
+    color: #008ECC;
+    font-size: 4rem;
+}
+
+i {
+    transition: transform 0.3s ease;
+    /* Agrega una transición suave */
+}
+
+i:hover {
+    transform: scale(1.2);
+    /* Aumenta el tamaño en un 10% */
+}

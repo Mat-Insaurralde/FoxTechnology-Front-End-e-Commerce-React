@@ -1,0 +1,16 @@
+.container-login {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-login form input {
+    padding: 0.6vh 0;
+}

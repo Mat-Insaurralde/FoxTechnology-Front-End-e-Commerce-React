@@ -1,0 +1,47 @@
+.conteiner-card {
+    width: 12vw;
+}
+
+.conteiner-img-product {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.conteiner-img-product img {
+    width: 50%;
+}
+
+
+.info-product {
+    background-color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.info-product p {
+    margin: 0;
+    padding: 1vh 1vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.info-product p:last-child {
+    border-top: 2px solid #EDEDED;
+
+}
+
+.green {
+    color: #249B3E;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.conteiner-card:hover {
+    outline: 2px solid #008ECC;
+    border-radius: 10px;
+}

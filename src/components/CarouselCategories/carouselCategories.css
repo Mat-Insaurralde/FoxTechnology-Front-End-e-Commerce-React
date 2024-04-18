@@ -1,0 +1,22 @@
+.section-2 h3 {
+    display: inline-block;
+    border-bottom: solid 2px #008ECC;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #666666;
+}
+
+.section-2 h3 span {
+    color: #008ECC;
+}
+
+.section-2 {
+    padding: 4vh 5vw;
+
+}
+
+
+.carousel-categories {
+    display: flex;
+    justify-content: space-around;
+
+}
