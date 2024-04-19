@@ -2,6 +2,7 @@
 import { useSelector } from "react-redux"
 import CarouselCategories from "../CarouselCategories/CarouselCategories"
 import CarouselProducts from "../CarouselProducts/CarouselProducts"
+import Header from './../Header/Header';
 
 
 function Main() {
@@ -15,6 +16,7 @@ console.log(user);
 
     <main>
 
+      <Header/>
       <CarouselProducts />
       <CarouselCategories />
 

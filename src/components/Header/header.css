@@ -1,0 +1,16 @@
+header {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.content-banner {
+    width: 77rem;
+    height: 20rem;
+}

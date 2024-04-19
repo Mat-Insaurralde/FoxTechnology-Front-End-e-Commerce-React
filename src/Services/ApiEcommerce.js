@@ -23,12 +23,12 @@ return response;
 
 export  function  getCategories() {
 
-  const response = axios.get("/products")
+  const response = axios.get("/products/find/categories")
   
   .then( (respuesta) => {
   
    
-      return respuesta.data.payload.docs;
+      return respuesta.data.payload;
     })
   
     .catch( (error) => {

@@ -1,6 +1,7 @@
 import "./carouselCategories.css"
 import { getCategories } from "../../Services/ApiEcommerce";
 import { useEffect, useState } from "react";
+import CardCategory from './../CardCategory/CardCategory';
 
 
 function CarouselCategories() {
@@ -9,7 +10,11 @@ function CarouselCategories() {
 
     useEffect(() => {
         getCategories().then((response) => {
+            
             setCategories(response);
+            
+        }).catch((error) => {
+            console.log(error);
         })
     }, [])
 
@@ -22,12 +27,8 @@ function CarouselCategories() {
             <h3>Compre en las categorias <span>principales</span></h3>
 
             <div className="carousel-categories" >
-                {/* {categories.map((category) => {
-            // console.log( category.category);
            
-                
-                })} */}
-
+           
             </div>
 
         </section>
