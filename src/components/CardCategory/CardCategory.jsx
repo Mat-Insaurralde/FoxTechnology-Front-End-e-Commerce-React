@@ -8,8 +8,7 @@ function CardCategory({category}) {
     <div>
       
 
-
-     <p>{category}</p>
+     <p>{category._id}</p>
     </div>
   )
 }

@@ -27,7 +27,7 @@ export  function  getCategories() {
   
   .then( (respuesta) => {
   
-   
+      console.log(respuesta.data.payload);
       return respuesta.data.payload;
     })
   

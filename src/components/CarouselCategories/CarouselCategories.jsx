@@ -28,10 +28,12 @@ function CarouselCategories() {
 
             <div className="carousel-categories" >
             {
-  categories.map((category) => (
-    <CardCategory key={category.id} category={category} />
-  ))
-}
+             categories.map((category,index) => (
+         
+             <CardCategory key={"category"+index} category={category} />
+           
+             ))
+           }
 
 
 
