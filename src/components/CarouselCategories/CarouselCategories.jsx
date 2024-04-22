@@ -27,8 +27,15 @@ function CarouselCategories() {
             <h3>Compre en las categorias <span>principales</span></h3>
 
             <div className="carousel-categories" >
-           
-           
+            {
+  categories.map((category) => (
+    <CardCategory key={category.id} category={category} />
+  ))
+}
+
+
+
+
             </div>
 
         </section>

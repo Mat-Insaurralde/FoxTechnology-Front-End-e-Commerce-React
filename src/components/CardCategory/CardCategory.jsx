@@ -1,15 +1,15 @@
 import "./cardCategory.css"
 
 
-function CardCategory() {
+function CardCategory({category}) {
  
 
     return (
     <div>
       
-<p>hola</p>
 
 
+     <p>{category}</p>
     </div>
   )
 }
