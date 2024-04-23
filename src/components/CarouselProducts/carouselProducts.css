@@ -10,7 +10,8 @@
 }
 
 .section-1 {
-    padding: 4vh 5vw;
+  max-width: 1200px;
+  margin: 0 auto;
 
 }
 

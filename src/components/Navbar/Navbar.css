@@ -1,3 +1,4 @@
+
 nav i {
     color: #008ECC;
     font-size: 1.5rem;
@@ -18,30 +19,24 @@ nav i {
 
 
 
-.nav-section-2 {
-    width: 100vw;
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 1rem;
 
 }
 
-.nav-section-2 a {
+.header a {
 
     text-decoration: none;
     color: #666666;
 }
 
 
-
-
-
-nav {
-
-    width: 100vh;
-
-}
 
 .container-logo {
     display: flex;

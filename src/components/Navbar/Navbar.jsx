@@ -10,13 +10,12 @@ function Navbar() {
     const valueTheme = useSelector((state) => state.theme.value);
     const usedispatch = useDispatch();
 
-    console.log('Tema :' + theme);
-
+  
 
     return (
-        <nav>
-            <section className={`nav-section-2 ${theme}`}>
-
+        <nav className={`nav ${theme}`}>
+           
+             <header className="header">
 
                 <div className="container-logo">
                     <button className="menu-left"><i className="ri-menu-line "></i></button>
@@ -56,10 +55,9 @@ function Navbar() {
                     <a href="#" className="header__search--cart cart"><i className="ri-shopping-cart-line" />
                     </a>
                 </div>
-            </section>
+           
 
-
-
+                </header>
         </nav>
     )
 }

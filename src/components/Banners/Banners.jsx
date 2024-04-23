@@ -1,20 +1,16 @@
-import "./header.css"
+import "./banners.css"
 import banner from "../../img/banner.jpg";
 
 
-function Header() {
+function Banners() {
   return (
-    <header>
-        
          <div className="content-banner">
 
          <img src={banner} className="banner" alt="" />
 
-         </div>
-      
-    </header>
+         </div> 
   )
 }
 
-export default Header
+export default Banners
 

@@ -1,11 +1,13 @@
 footer {
+    color: white;
     height: 60vh;
-    width: 100vw;
     background-color: #008ECC;
 }
+.container-footer{
+max-width: 1200px;
+margin: 0 auto;
+height: 100%;
 
-footer {
-    color: white;
 }
 
 
@@ -22,7 +24,7 @@ footer {
 }
 
 
-.conteiner-lists {
+.container-lists {
     height: 90%;
     display: flex;
     align-items: center;
@@ -56,12 +58,12 @@ footer {
 }
 
 
-.conteiner-lists ul {
+.container-lists ul {
     margin: 0;
     padding-left: 2vw;
 }
 
-.conteiner-lists li {
+.container-lists li {
     padding-top: 2vh;
     font-size: 0.8rem;
 }

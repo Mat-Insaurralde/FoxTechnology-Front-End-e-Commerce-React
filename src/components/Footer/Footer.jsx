@@ -10,10 +10,12 @@ function Footer() {
 
   return (
     <footer>
+<div className="container-footer">
+
       <img className="mask" src={mask} alt="" />
 
 
-      <div className="conteiner-lists" >
+      <div className="container-lists" >
 
 
         <div className="lista-1">
@@ -67,9 +69,9 @@ function Footer() {
 
       </div>
 
-<div className="reserved">  <p>© {new Date().getFullYear()} Developer web Javier Insaurralde </p>     </div>
+       <div className="reserved">  <p>© {new Date().getFullYear()} Developer web Javier Insaurralde </p>     </div>
  
-
+       </div>
     </footer>
   )
 }
