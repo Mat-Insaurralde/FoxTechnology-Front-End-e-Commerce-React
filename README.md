@@ -1,8 +1,18 @@
-<h1>e-Commerce<h1/>
+# Fox Technology
 
-<h3>Tecnologias</h3>
+Bienvenido/a al proyecto "Fox Technology"
+Este front-end esta en desarrollo actualmente 
+me encuentro trabajando con las siguientes tecnologias:
 React
-Redux
-Axios
-y mas
+React Router Dom
+Redux toolkit
+Axios entre otras..
 
+
+
+   
+
+
+## Contacto
+
+**LinkedIn :** [Javier Matias Insaurralde :desktop_computer:](https://www.linkedin.com/in/javier-matias-insaurralde-3aa783274/)
